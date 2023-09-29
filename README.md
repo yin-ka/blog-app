@@ -1,37 +1,8 @@
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
--->
 
 <div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-<!--   <img src="images/icon_head.jpg" alt="logo" width="140"  height="auto" />
-  <br/> -->
-
   <h3><b>Blog App</b></h3>
-
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -43,14 +14,13 @@ After you're finished please remove all the comments and instructions!
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
-  - [🦻 Walkthrough  Video](#walkthrough-demo)
 - [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
   - [Prerequisites](#prerequisites)
+  - [Setup](#setup)
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
+- [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -115,14 +85,6 @@ The Blog app is set to serve as a prime illustration of a traditional blog site.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- WalkThrough Video -->
-
-## 🦻 WalkThrough Video <a name="#walkthrough-demo"></a>
-
-- Coming soon...
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
@@ -183,7 +145,7 @@ Example command:
   rubocop .
   rspec .
 ```
-### Deployment
+### Deployment<a name="deployment"></a>
 You can deploy this project using:
 netlify or Herouku
 <!-- Example:
@@ -199,30 +161,30 @@ git@github.com:yin-ka/Sharing-World.git
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- FUTURE FEATURES -->
 
-## :telescope: Future Features <a name="future-features"></a><br/>
+## 🔭: Future Features <a name="future-features"></a><br/>
 - [ ] **Adding more BackEnd**<br/>
 - [ ] **Making it stylish**
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- CONTRIBUTING -->
 
-## :handshake: Contributing <a name="contributing"></a>
+## 🤝: Contributing <a name="contributing"></a>
 Contributions, issues, and feature requests are welcome!<br/>
 Feel free to check the [Issues Page](https://github.com/yin-ka/blog-app/issues).
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- SUPPORT -->
 
-## :star:️ Show your support <a name="support"></a>
+## ⭐️:️ Show your support <a name="support"></a>
 If you like this project please follow me on GitHub and also connect on Linkedin.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- ACKNOWLEDGEMENTS -->
 
-## :pray: Acknowledgments <a name="acknowledgements"></a>
+## 🙏: Acknowledgments <a name="acknowledgements"></a>
 - I would like to thank Microverse for this exercise. <br>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- FAQ (optional) -->
 
-## :question: FAQ (OPTIONAL) <a name="faq"></a><br/>
+## ❓: FAQ (OPTIONAL) <a name="faq"></a><br/>
 - **How long can it take to build that project**
 
   - four days according to personal skills
@@ -235,7 +197,7 @@ If you like this project please follow me on GitHub and also connect on Linkedin
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](https://github.com/yin-ka/blog-app/blob/dev/LICENSE) licensed.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
