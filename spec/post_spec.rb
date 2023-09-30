@@ -17,24 +17,31 @@ RSpec.describe Post, type: :model do
     end
 
     it 'title should not exceed 250 characters' do
-      mock_title = 'Schwebet die der nun in diesmal, trüben wiederholt mit schwankende lebt
-      folgenden herzen umwittert lied schatten. Schmerz getäuscht mein die seh
-      wirklichkeiten lauf wie der, versuch beifall nach das nach mir sich lied,
-      mich und sich es schwebet auf tage. Mit träne labyrinthisch hören
-      nebel vor. Und versuch äolsharfe umwittert meinem.
-      Sed ut tellus metus. Vivamus malesuada, purus sed venenatis rutrum, nunc ex
-      viverra elit,
-      ac bibendum orci turpis ut mi. Nulla facilisi. Fusce euismod, velit vel
-      ultrices ullamcorper,
-      nibh velit interdum leo, vel varius lacus sapien eu augue. Fusce euismod, velit
-      vel ultrices ullamcorper, nibh velit
-      interdum leo, vel varius lacus sapien eu augue. Sed eget nisl auctor, posuere enim eu,
-      eleifend nisl. Mauris bibendum volutpat nunc ac interdum. Donec euismod, quam at
-      elementum porttitor, odio neque consequat quam, nec lacinia nulla mi a ligula.
-      Sed sed risus eget sapien scelerisque vehicula. Sed faucibus turpis et ante
-      molestie, non gravida eros tincidunt. Nunc id urna diam. Fusce non est vel
-      erat convallis tincidunt. Nulla facilisi. Donec id volutpat nulla.'
-      post = Post.new(title: mock_title, comments_counter: 1, likes_counter: 1)
+      user = User.create(name: 'name')
+      mock_title = 'A title that is less than 250 characters'
+      post = Post.new(title: mock_title, comments_counter: 1,
+                      likes_counter: 1, author: user)
+      expect(post).to be_valid
+
+      mock_long_title = 'Schwebet die der nun in diesmal, trüben wiederholt mit schwankende lebt
+        folgenden herzen umwittert lied schatten. Schmerz getäuscht mein die seh
+        wirklichkeiten lauf wie der, versuch beifall nach das nach mir sich lied,
+        mich und sich es schwebet auf tage. Mit träne labyrinthisch hören
+        nebel vor. Und versuch äolsharfe umwittert meinem.
+        Sed ut tellus metus. Vivamus malesuada, purus sed venenatis rutrum, nunc ex
+        viverra elit,
+        ac bibendum orci turpis ut mi. Nulla facilisi. Fusce euismod, velit vel
+        ultrices ullamcorper,
+        nibh velit interdum leo, vel varius lacus sapien eu augue. Fusce euismod, velit
+        vel ultrices ullamcorper, nibh velit
+        interdum leo, vel varius lacus sapien eu augue. Sed eget nisl auctor, posuere enim eu,
+        eleifend nisl. Mauris bibendum volutpat nunc ac interdum. Donec euismod, quam at
+        elementum porttitor, odio neque consequat quam, nec lacinia nulla mi a ligula.
+        Sed sed risus eget sapien scelerisque vehicula. Sed faucibus turpis et ante
+        molestie, non gravida eros tincidunt. Nunc id urna diam. Fusce non est vel
+        erat convallis tincidunt. Nulla facilisi. Donec id volutpat nulla.'
+      post = Post.new(title: mock_long_title,
+                      comments_counter: 1, likes_counter: 1, author: user)
       expect(post).not_to be_valid
       expect(post.errors[:title]).to include('cannot exceed 250 characters')
     end
