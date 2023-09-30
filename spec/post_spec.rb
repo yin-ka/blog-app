@@ -17,7 +17,11 @@ RSpec.describe Post, type: :model do
     end
 
     it 'title should not exceed 250 characters' do
-      mock_title = 'Schwebet die der nun in diesmal, trüben wiederholt mit schwankende lebt folgenden herzen umwittert lied schatten. Schmerz getäuscht mein die seh wirklichkeiten lauf wie der, versuch beifall nach das nach mir sich lied, mich und sich es schwebet auf tage. Mit träne labyrinthisch hören nebel vor. Und versuch äolsharfe umwittert meinem. Gesänge lied der steigt es das herz erste schauer ein, ist jenem mögt jugendlich ist, bilder stillen ersten klage ein, meinem strenge seh ich lieb entwöhntes und hören  blick. Der jenem weich nun und irrt glück vom mild die. Gezeigt schwebet wird einer bilder ein ich herzen jenem, ihr vom sich umwittert noch, wirklichkeiten meinem weich folgenden die alten froher des es jenem. Seelen lispelnd und äolsharfe schauer die die gleich wird, walten tränen besitze ich schöne. Selbst wirklichkeiten ich ihr hören schwebet naht. Wie dem umwittert euch im wird folgt wenn. Ist beifall zu gedränge alten selbst.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      mock_title = 'Schwebet die der nun in diesmal, trüben wiederholt mit schwankende lebt
+      folgenden herzen umwittert lied schatten. Schmerz getäuscht mein die seh
+      wirklichkeiten lauf wie der, versuch beifall nach das nach mir sich lied,
+      mich und sich es schwebet auf tage. Mit träne labyrinthisch hören
+      nebel vor. Und versuch äolsharfe umwittert meinem.
       Sed ut tellus metus. Vivamus malesuada, purus sed venenatis rutrum, nunc ex
       viverra elit,
       ac bibendum orci turpis ut mi. Nulla facilisi. Fusce euismod, velit vel
