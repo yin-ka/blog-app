@@ -73,6 +73,7 @@ The Blog app is set to serve as a prime illustration of a traditional blog site.
 - **Create Ruby on Rails Project**
 - **Create modal schema**
 - **Display Text**
+- **Unit Tests**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -187,7 +188,7 @@ If you like this project please follow me on GitHub and also connect on Linkedin
 ## ❓: FAQ (OPTIONAL) <a name="faq"></a><br/>
 - **How long can it take to build that project**
 
-  - four days according to personal skills
+  - A week according to personal skills
 
 - **Where to find Figma for that project!**
 
