@@ -74,6 +74,7 @@ The Blog app is set to serve as a prime illustration of a traditional blog site.
 - **Create modal schema**
 - **Display Text**
 - **Unit Tests**
+- **Add controllers**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
