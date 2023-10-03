@@ -75,6 +75,7 @@ The Blog app is set to serve as a prime illustration of a traditional blog site.
 - **Display Text**
 - **Unit Tests**
 - **Add controllers**
+- **Add controller tests**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
