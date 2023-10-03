@@ -1,23 +1,23 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: blog_app_dev
+  database: blog_application_dev
   pool: 5
-  username: postgres
+  username: sholotanyusuf
   password: 102110
 
 test:
   adapter: postgresql
   encoding: unicode
-  database: blog_app_testing
+  database: blog_application_testing
   pool: 5
-  username: postgres
+  username: sholotanyusuf
   password: 102110
 
 production:
   adapter: postgresql
   encoding: unicode
-  database: blog_app_prod
+  database: blog_application_prod
   pool: 5
-  username: postgres
+  username: sholotanyusuf
   password: 102110
