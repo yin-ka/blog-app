@@ -72,7 +72,7 @@ The Blog app is set to serve as a prime illustration of a traditional blog site.
 - **Follow HTML and CSS best practice**
 - **Create Ruby on Rails Project**
 - **Create modal schema**
-- **Display Text**
+- **Display Page views**
 - **Unit Tests**
 - **Add controllers**
 - **Add controller tests**
