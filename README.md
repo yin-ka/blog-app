@@ -167,6 +167,13 @@ git@github.com:yin-ka/Sharing-World.git
 
 - GitHub: [@rubydevi](https://github.com/rubydevi)
 - LinkedIn: [Chongtham Ruby Devi](https://www.linkedin.com/in/chongtham-bhoomika/)
+
+
+👤 **Diana Beki**
+- GitHub: [@Github](https://github.com/DianaBeki)
+- Twitter: [@Twitter](https://twitter.com/home)
+- LinkedIn: [@LinkedIn](https://www.linkedin.com/in/diana-beki/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- FUTURE FEATURES -->
 
