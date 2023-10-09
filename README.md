@@ -162,6 +162,11 @@ git@github.com:yin-ka/Sharing-World.git
  👤 : **Yusuf Sholotan**
 - GitHub: [@yin-ka](https://github.com/yin-ka)
 - LinkedIn: [Yusuf Sholotan](https://www.linkedin.com/in/yusuf-sholotan/)
+
+👤 **Chongtham Ruby Devi**
+
+- GitHub: [@rubydevi](https://github.com/rubydevi)
+- LinkedIn: [Chongtham Ruby Devi](https://www.linkedin.com/in/chongtham-bhoomika/)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- FUTURE FEATURES -->
 
