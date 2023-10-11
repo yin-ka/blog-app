@@ -77,6 +77,7 @@ The Blog app is set to serve as a prime illustration of a traditional blog site.
 - **Add controllers**
 - **Add controller tests**
 - **Add forms**
+- **Fix n+1 problem**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
