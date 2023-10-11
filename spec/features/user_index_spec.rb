@@ -3,15 +3,17 @@ require 'rails_helper'
 RSpec.describe 'Users', type: :system, js: true do
   before(:all) do
     @obama = User.create(name: 'Barack Obama', photo: 'https://images1.penguinrandomhouse.com/author/22627',
-                        bio: '44th President of the United States')
+                         bio: '44th President of the United States')
 
     @meryl = User.create(name: 'Meryl Streep', photo: '/assets/default_user.png',
                          bio: 'Academy Award-winning actress')
 
     @post1 = Post.create(title: 'State of the Union', text: 'Reflecting on the state of our nation.', author: @obama)
-    @post2 = Post.create(title: 'Leadership in Hollywood', text: 'Dedicated to my craft and the art of acting.', author: @meryl)
+    @post2 = Post.create(title: 'Leadership in Hollywood', text: 'Dedicated to my craft and the art of acting.',
+                         author: @meryl)
     @post3 = Post.create(title: 'Policy and Change', text: 'Working to make the world a better place.', author: @obama)
-    @post4 = Post.create(title: 'Iconic Performances', text: 'Exploring the roles that define my career.', author: @meryl)
+    @post4 = Post.create(title: 'Iconic Performances', text: 'Exploring the roles that define my career.',
+                         author: @meryl)
   end
 
   describe 'index page' do
