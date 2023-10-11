@@ -77,6 +77,7 @@ The Blog app is set to serve as a prime illustration of a traditional blog site.
 - **Add controllers**
 - **Add controller tests**
 - **Add forms**
+- **Fix n+1 problem**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -162,6 +163,18 @@ git@github.com:yin-ka/Sharing-World.git
  👤 : **Yusuf Sholotan**
 - GitHub: [@yin-ka](https://github.com/yin-ka)
 - LinkedIn: [Yusuf Sholotan](https://www.linkedin.com/in/yusuf-sholotan/)
+
+👤 **Chongtham Ruby Devi**
+
+- GitHub: [@rubydevi](https://github.com/rubydevi)
+- LinkedIn: [Chongtham Ruby Devi](https://www.linkedin.com/in/chongtham-bhoomika/)
+
+
+👤 **Diana Beki**
+- GitHub: [@Github](https://github.com/DianaBeki)
+- Twitter: [@Twitter](https://twitter.com/home)
+- LinkedIn: [@LinkedIn](https://www.linkedin.com/in/diana-beki/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- FUTURE FEATURES -->
 
