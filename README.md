@@ -78,7 +78,7 @@ The Blog app is set to serve as a prime illustration of a traditional blog site.
 - **Add controller tests**
 - **Add forms**
 - **Fix n+1 problem**
-
+- - **Add Mail confirmation during registration**" 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
